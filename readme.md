@@ -1,5 +1,6 @@
 # Sitecore.Support.97258
-Fixes the issue with incorrect value selection in the Day dropdown list when using the Date field in ASP.NET MVC Forms
+When you use the `Date` field in `ASP.NET MVC Forms` the `Day` dropdown list may contain incorrect selected value after changing the `Month` dropdown list value.<br/>
+This patch fixes the described behavior.
 
 ## License  
 This patch is licensed under the [Sitecore Corporation A/S License for GitHub](https://github.com/sitecoresupport/Sitecore.Support.97258/blob/master/LICENSE).  
